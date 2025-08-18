@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% extends "base.html" %}
+
+{% block content %}
+  <h2>Items List</h2>
+  <ul>
+  {% for item in items %}
+    <li>{{ item | upper }}</li>
+  {% endfor %}
+  </ul>
+{% endblock %}
+
+    
+</body>
+</html>

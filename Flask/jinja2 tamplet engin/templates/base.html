@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+</head>
+<body>
+    <h1>Welcome to Flask Jinja2 Template Engine</h1>
+    <p>This is a base template that can be extended by other templates.</p>
+    
+    <nav>
+        <ul>
+        <a href="{{ url_for('home') }}">Home</a>|
+        <a href="{{ url_for('about') }}">About</a> |
+        <a href="{{ url_for('list_items') }}">Items</a>
+        </ul>
+    </nav>
+    {% block content %}
+    <!-- Content from child templates will be inserted here -->
+    {% endblock %}
+    
+    <footer>
+        <p>Thank you for visiting!</p>
+    </footer>
+    
+</body>
+</html>
