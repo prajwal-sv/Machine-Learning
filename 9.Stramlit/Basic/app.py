@@ -43,3 +43,14 @@ st.dataframe(dataframe)
 st.line_chart(dataframe)
 
 
+
+#redio button 
+
+
+number = st.radio("chose an opyion",("1,2,3,4,5"))
+
+st.write(f"You selected: {number}")
+#end of the code
+
+
+
