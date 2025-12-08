@@ -1,6 +1,9 @@
 pandas
 numpy
 matplotlib
-StringIO
 flask
 scikit-learn
+flask
+scikit-learn
+seaborn
+statsmodels
