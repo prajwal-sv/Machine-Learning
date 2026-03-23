@@ -1,0 +1,199 @@
+# ==============================
+# 🐳 DOCKER COMPLETE CHEAT SHEET
+# ==============================
+
+# ------------------------------
+# 1. VERSION & SYSTEM INFO
+# ------------------------------
+docker --version          # Shows Docker version
+docker version            # Detailed version (client + server)
+docker info               # System-wide Docker info
+
+# ------------------------------
+# 2. IMAGES
+# ------------------------------
+docker images             # List all images
+docker image ls           # Same as above
+
+docker pull nginx         # Download image from Docker Hub
+
+docker build -t myimage . 
+# Build image from Dockerfile in current directory
+
+docker rmi image_id       
+# Remove an image
+
+docker image prune        
+# Remove unused images
+
+# ------------------------------
+# 3. CONTAINERS
+# ------------------------------
+docker run nginx          
+# Run container from image
+
+docker run -p 8080:80 nginx  
+# Map port (host:container)
+
+docker run -d nginx       
+# Run in background (detached mode)
+
+docker run -d --name mycontainer nginx  
+# Run container with name
+
+docker ps                 
+# Show running containers
+
+docker ps -a              
+# Show all containers (including stopped)
+
+docker stop container_id  
+# Stop a running container
+
+docker start container_id 
+# Start a stopped container
+
+docker restart container_id  
+# Restart container
+
+docker rm container_id    
+# Remove container
+
+docker container prune    
+# Remove all stopped containers
+
+# ------------------------------
+# 4. EXECUTION & LOGS
+# ------------------------------
+docker exec -it container_id bash  
+# Enter inside container (interactive shell)
+
+docker logs container_id  
+# View container logs
+
+docker logs -f container_id  
+# Follow logs in real-time
+
+# ------------------------------
+# 5. VOLUMES (STORAGE)
+# ------------------------------
+docker volume create myvolume  
+# Create volume
+
+docker volume ls              
+# List volumes
+
+docker volume inspect myvolume  
+# Detailed info about volume
+
+docker volume rm myvolume     
+# Remove volume
+
+# ------------------------------
+# 6. NETWORKS
+# ------------------------------
+docker network ls             
+# List networks
+
+docker network create mynetwork  
+# Create new network
+
+docker network connect mynetwork container_id  
+# Connect container to network
+
+docker network rm mynetwork   
+# Remove network
+
+# ------------------------------
+# 7. SYSTEM CLEANUP
+# ------------------------------
+docker system prune           
+# Remove unused data (containers, images, etc.)
+
+docker system prune -a --volumes  
+# Remove EVERYTHING unused (including volumes)
+
+# ------------------------------
+# 8. INSPECT & MONITOR
+# ------------------------------
+docker inspect container_id   
+# Detailed JSON info
+
+docker stats                  
+# Live CPU, memory usage
+
+docker top container_id       
+# Running processes inside container
+
+# ------------------------------
+# 9. BACKUP (SAVE & LOAD)
+# ------------------------------
+docker save -o myimage.tar myimage  
+# Save image to file
+
+docker load -i myimage.tar    
+# Load image from file
+
+# ------------------------------
+# 10. TAG & PUSH (DOCKER HUB)
+# ------------------------------
+docker tag myimage username/myimage  
+# Tag image for upload
+
+docker push username/myimage  
+# Push image to Docker Hub
+
+# ------------------------------
+# 11. LOGIN / LOGOUT
+# ------------------------------
+docker login                  
+# Login to Docker Hub
+
+docker logout                 
+# Logout
+
+# ------------------------------
+# 12. COPY FILES
+# ------------------------------
+docker cp file.txt container_id:/app/  
+# Copy file from host → container
+
+docker cp container_id:/app/file.txt .  
+# Copy file from container → host
+
+# ------------------------------
+# 13. RENAME CONTAINER
+# ------------------------------
+docker rename old_name new_name  
+# Rename container
+
+# ------------------------------
+# 14. PAUSE / UNPAUSE
+# ------------------------------
+docker pause container_id     
+# Pause container
+
+docker unpause container_id   
+# Resume container
+
+# ------------------------------
+# 15. ATTACH / DETACH
+# ------------------------------
+docker attach container_id    
+# Attach terminal to container
+
+# Detach without stopping:
+# Press: CTRL + P + Q
+
+# ==============================
+# 🔥 MOST USED (REMEMBER THESE)
+# ==============================
+# docker build
+# docker run
+# docker ps
+# docker stop
+# docker rm
+# docker images
+# docker pull
+# docker exec
+# docker logs
