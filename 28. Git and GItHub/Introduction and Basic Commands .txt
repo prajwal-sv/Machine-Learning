@@ -1,0 +1,103 @@
+ What is Git?
+= Git is a distributed version control system used to track changes in code.
+
+
+without Git:
+
+Code gets overwritten ❌
+No history ❌
+Hard to collaborate ❌
+
+With Git:
+
+Track every change ✔️
+Go back to old versions ✔️
+Work in teams ✔️
+Manage projects efficiently ✔️
+
+
+
+Basic Git Commands : 
+git init              # Initialize Git repo        Creates a new Git repository
+git add .             # Add files to staging        Moves files to staging area
+git commit -m "msg"   # Save changes                Saves snapshot of code
+git status            # Check status               Shows: Modified files ,Untracked files
+git log               # View history
+
+                          
+
+
+| Git            | GitHub             |
+| -------------- | ------------------ |
+| Tool           | Platform           |
+| Local system   | Cloud              |
+| Tracks changes | Stores code online |
+
+
+Advance  : 
+git remote add origin https://github.com/username/repo.git          # Connect to Remote Repository      
+
+git push -u origin main                                              # Uploads code to remote repo
+
+git clone https://github.com/username/repo.git                       #Copies project from GitHub
+
+
+git pull origin main                                                 # Gets latest updates from team
+
+
+
+
+                                ##### Branching (VERY IMPORTANT) ######
+
+    git branch feature1              #Create branch
+
+    git checkout feature1    
+            or                      #Switch branch
+    git checkout -b feature1               
+
+    git checkout main
+            and                    #Combines feature into main
+    git merge feature1
+   
+    git branch -d feature1           #Delete Branch
+
+    git log                         #View History 
+
+
+
+⚠️ What is a Merge Conflict?
+👉 A merge conflict happens when:
+
+Two branches modify the same part of a file, and Git doesn’t know which change to keep.
+
+
+💡 Simple Example
+Branch 1:
+print("Hello World")
+Branch 2:
+print("Hello Prajwal")
+
+👉 When merging → Git gets confused ❌
+👉 Which one is correct?
+
+
+How Conflict Looks
+| Symbol         | Meaning              |
+| -------------- | -------------------- |
+| `<<<<<<< HEAD` | Current branch code  |
+| `=======`      | Separator            |
+| `>>>>>>>`      | Incoming branch code |
+
+
+
+resolve it   
+
+git checkout main
+git merge feature-branch   # conflict happens
+# fix file manually
+git add .
+git commit -m "conflict resolved"
+
+
+
+

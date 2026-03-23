@@ -1,0 +1,267 @@
+[33mcommit 76427e09eb34033e7259d75d6c5dd6da4c374219[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Prajawal <prajwalwankhede890@gmail.com>
+Date:   Mon Mar 23 23:50:40 2026 +0530
+
+    Docker under standing
+
+[33mcommit 1bd116496c63998acef91f872f6aebaf90d3622c[m
+Author: Prajawal <prajwalwankhede890@gmail.com>
+Date:   Mon Mar 9 15:10:14 2026 +0530
+
+    Random forest Classification
+
+[33mcommit fb26050cdf2647e8b9ddd39567628fd78236b65b[m
+Author: Prajawal <prajwalwankhede890@gmail.com>
+Date:   Mon Mar 9 02:31:34 2026 +0530
+
+    Rf creation
+
+[33mcommit 35b3d5df49f83024a28170e4eb9d240e73679d78[m
+Author: Prajawal <prajwalwankhede890@gmail.com>
+Date:   Sat Mar 7 14:52:36 2026 +0530
+
+    Decision tress
+
+[33mcommit ebf8ffbb94364f30a886857d43a7d5a17e6f4b19[m
+Author: Prajawal <prajwalwankhede890@gmail.com>
+Date:   Thu Mar 5 20:35:47 2026 +0530
+
+    knn
+
+[33mcommit 0742a9f03199c6c2469d0594d3df2572cbb810ab[m
+Author: Prajawal <prajwalwankhede890@gmail.com>
+Date:   Sat Feb 28 21:31:40 2026 +0530
+
+    SVM code
+
+[33mcommit cef7c0a810baf4710d0e7ee34c4453e624eb2a33[m
+Author: Prajawal <prajwalwankhede890@gmail.com>
+Date:   Thu Feb 19 13:32:02 2026 +0530
+
+    Refactor code structure for improved readability and maintainability
+
+[33mcommit 35eaac26508032c769819dccb45e77a7dd860a00[m
+Author: Prajawal <prajwalwankhede890@gmail.com>
+Date:   Thu Feb 19 13:16:34 2026 +0530
+
+    add logistic regression implementation with dataset creation and evaluation metrics
+
+[33mcommit f359f2f866c45822845883d696987ffab7a18cfe[m
+Author: Prajawal <prajwalwankhede890@gmail.com>
+Date:   Thu Feb 19 13:10:56 2026 +0530
+
+    multiple linear regression
+
+[33mcommit 3fcbbc2763b9fed6e71b70190b0eb4a33d06a934[m
+Author: Prajawal <prajwalwankhede890@gmail.com>
+Date:   Wed Feb 18 14:40:28 2026 +0530
+
+    simple linear regression
+
+[33mcommit fd7012cf6e57235683dd7dbe13ec3bee14b9365f[m
+Author: Prajawal <prajwalwankhede890@gmail.com>
+Date:   Wed Feb 11 15:46:21 2026 +0530
+
+    central limit therom
+
+[33mcommit 6428ef4e8f4011e18f6a69173953c3d635c80148[m
+Author: Prajawal <prajwalwankhede890@gmail.com>
+Date:   Wed Feb 11 15:35:08 2026 +0530
+
+    normal distribution
+
+[33mcommit 00098500b42c09cb30feb08eb153522c2172f459[m
+Author: Prajawal <prajwalwankhede890@gmail.com>
+Date:   Wed Feb 11 15:26:51 2026 +0530
+
+    possion distribution
+
+[33mcommit ecd47878104d9e883404336fc14344c12bee3b75[m
+Author: Prajawal <prajwalwankhede890@gmail.com>
+Date:   Wed Feb 11 15:25:56 2026 +0530
+
+    poisson distribution
+
+[33mcommit c67b1397b2a70fd91d9340c1cb84455606295629[m
+Author: Prajawal <prajwalwankhede890@gmail.com>
+Date:   Wed Feb 11 15:13:49 2026 +0530
+
+    burnoulli distribution
+
+[33mcommit 56407210754f894cd2a4d7d39271e5f5aae57b16[m
+Author: Prajawal <prajwalwankhede890@gmail.com>
+Date:   Wed Feb 11 15:03:12 2026 +0530
+
+    binomial dstribution
+
+[33mcommit 2b3f78e293541793303442bcacac746cc66e874c[m
+Author: Prajawal <prajwalwankhede890@gmail.com>
+Date:   Wed Feb 11 14:37:08 2026 +0530
+
+    multiple linnear reagression
+
+[33mcommit e0fd5658b93c692b22979bb24a66e6d45722fb16[m
+Author: Prajawal <prajwalwankhede890@gmail.com>
+Date:   Mon Dec 8 20:42:31 2025 +0530
+
+    multiple linear Regresion
+
+[33mcommit 9ec05d634a7d74fafc9a462b154844a539156f2e[m
+Author: Prajawal <prajwalwankhede890@gmail.com>
+Date:   Sun Nov 30 22:46:25 2025 +0530
+
+    simple linnear regression
+
+[33mcommit f641290f3c9e5db3e0fb00a4e7f7f1ec1a27e35a[m
+Author: Prajwal <prajwalwankhede890@gmail.com>
+Date:   Wed Sep 17 17:20:09 2025 +0530
+
+    ordinal and label encoding
+
+[33mcommit 282d8665398888bffebf12a10bd835ac115b1aa2[m
+Author: Prajwal <prajwalwankhede890@gmail.com>
+Date:   Wed Sep 17 16:43:59 2025 +0530
+
+    Nominal Encoding
+
+[33mcommit 443617dcf180744e258fa48479eda514d3ace9e9[m
+Author: Prajwal <prajwalwankhede890@gmail.com>
+Date:   Mon Sep 15 20:54:49 2025 +0530
+
+    5 number summary
+
+[33mcommit 7d555e19c37a3be06004aef800b30dc457c12961[m
+Author: Prajwal <prajwalwankhede890@gmail.com>
+Date:   Mon Sep 15 19:36:12 2025 +0530
+
+    SEMOT data imblance
+
+[33mcommit d692a702ad8bd9937accc1e0ecc60541e02a02e6[m
+Author: Prajwal <prajwalwankhede890@gmail.com>
+Date:   Mon Sep 15 17:20:54 2025 +0530
+
+    handaling the imbalance dataset
+
+[33mcommit d13d5c0bc1158b4b7f906b10ad97fd22a9c29089[m
+Author: Prajwal <prajwalwankhede890@gmail.com>
+Date:   Sun Sep 7 16:16:21 2025 +0530
+
+    missing value handling using mean midean mode
+
+[33mcommit bc913f41586c0376c4cefbbdc94826d53c6dfa1d[m
+Merge: bf06ca33 1049fd27
+Author: Prajwal <prajwalwankhede890@gmail.com>
+Date:   Sun Sep 7 12:02:06 2025 +0530
+
+    Merge branch 'main' of https://github.com/prajwal-sv/Machine-Learning
+
+[33mcommit bf06ca332577400eae1770cfeece5727ed39e545[m
+Author: Prajwal <prajwalwankhede890@gmail.com>
+Date:   Wed Aug 20 00:46:16 2025 +0530
+
+    streamlit wigets
+
+[33mcommit e047d66dd1d6a08b98b893536c44e9a8980c9cad[m
+Author: Prajwal <prajwalwankhede890@gmail.com>
+Date:   Wed Aug 20 00:27:33 2025 +0530
+
+    streamlit: Add basic app and widgets
+
+[33mcommit e861fb0b0c6cade91f462ec56e929b3204dd2151[m
+Author: Prajwal <prajwalwankhede890@gmail.com>
+Date:   Wed Aug 20 00:14:08 2025 +0530
+
+    basic of streamlit app
+
+[33mcommit 2ebc29ac8e0e5e4d73c910a1727081b42df7bca1[m
+Author: Prajwal <prajwalwankhede890@gmail.com>
+Date:   Wed Aug 20 00:03:51 2025 +0530
+
+    numbering
+
+[33mcommit 1049fd273807b9e042cf865be8085f8d7d4e2df6[m
+Author: prajwal wankhede <112326882+prajwal-sv@users.noreply.github.com>
+Date:   Tue Aug 19 01:53:03 2025 +0530
+
+    Create README.md
+
+[33mcommit 32999bf84e7baeeeb765d320bd740efd9a3e4c1c[m
+Author: prajwal wankhede <112326882+prajwal-sv@users.noreply.github.com>
+Date:   Tue Aug 19 01:42:35 2025 +0530
+
+    Create python-package.yml
+
+[33mcommit ad0f98b9c6b9f9bc1c55c8fcceeb3e5bfff8c02b[m
+Author: Prajwal <prajwalwankhede890@gmail.com>
+Date:   Tue Aug 19 01:38:10 2025 +0530
+
+    jinja2 tmaplet engin
+
+[33mcommit 58807ace5128fc02db81e366aa4e49b50bcdc34c[m
+Author: Prajwal <prajwalwankhede890@gmail.com>
+Date:   Tue Aug 19 01:10:21 2025 +0530
+
+    basic of flask
+
+[33mcommit c511e1cfb0bc50d637f0838d85ceb6a4773c0a9a[m
+Author: Prajwal <prajwalwankhede890@gmail.com>
+Date:   Mon Aug 18 22:15:31 2025 +0530
+
+    falsk understanding
+
+[33mcommit f43fb61a1d7ec83ef49c82503ca32abe398d67d8[m
+Author: Prajwal <prajwalwankhede890@gmail.com>
+Date:   Tue Aug 12 23:35:15 2025 +0530
+
+    Save all changes
+
+[33mcommit a0c065547beb5282e0f5bd5fbef605c2c14e82d0[m
+Author: Prajwal <prajwalwankhede890@gmail.com>
+Date:   Tue Aug 12 22:55:18 2025 +0530
+
+    Save all recent changes
+
+[33mcommit a06b39a701613ca6d71cc88d8ffbdea25b131598[m
+Author: Prajwal <prajwalwankhede890@gmail.com>
+Date:   Tue Aug 12 21:03:45 2025 +0530
+
+    Update memoManage.ipynb and other files with memory management examples
+
+[33mcommit 91d4214c9ab74f9fbff8d58b8e706d425c7d37b0[m
+Author: Prajwal <prajwalwankhede890@gmail.com>
+Date:   Tue Aug 12 19:21:31 2025 +0530
+
+    Update realWorldEx.py and other files with multiprocessing examples
+
+[33mcommit 261c1ebb427ecbff35d895275681c15a16b6660a[m
+Author: Prajwal <prajwalwankhede890@gmail.com>
+Date:   Sat Jul 26 17:01:24 2025 +0530
+
+    Save all recent changes including log files and code updates
+
+[33mcommit 63f70fddbf3985d8d8d5992d21b2c8e3869802f5[m
+Author: Prajwal <prajwalwankhede890@gmail.com>
+Date:   Fri Jul 25 19:13:21 2025 +0530
+
+    Save all recent changes including logs and notebooks
+
+[33mcommit 6982ae0d2bd431489cec9882b7e61f8d8d1e3a7b[m
+Author: Prajwal <prajwalwankhede890@gmail.com>
+Date:   Fri Jul 25 18:36:07 2025 +0530
+
+    Fix SQL syntax and finalize SqlLite.ipynb notebook
+
+[33mcommit 1777e0e8c9fdcf186d365835e95137f4153e646e[m
+Author: Prajwal <prajwalwankhede890@gmail.com>
+Date:   Fri Jul 18 19:01:42 2025 +0530
+
+    Update Seaborn.ipynb with heatmap and other visualization examples
+
+[33mcommit fe7d2f0d81d361dacc8cfba0c49a5bebd84a739a[m
+Author: Prajwal <prajwalwankhede890@gmail.com>
+Date:   Fri Jul 18 18:13:13 2025 +0530
+
+    Add and update Matplotlib plotting examples in Matplotlib.ipynb
+
+[33mcommit 23c97ef990a66db3d5bf43ef552b0af20ccca8ae[m
+Author: Prajwal <p
